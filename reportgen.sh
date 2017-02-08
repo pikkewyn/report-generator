@@ -22,7 +22,7 @@ monitor()
           break;
         fi
     fi
-    sleep "$((15 - $(date '+%M') % 15))m"
+    sleep "$((15 - $(date '+%-M') % 15))m"
   done
 }
 
